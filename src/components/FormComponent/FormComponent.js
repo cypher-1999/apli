@@ -99,6 +99,17 @@ const FormComponent = (props) => {
                         4
                       </label>
                     </div>
+<div class="form-check mt-3">
+                      <input
+                        class="form-check-input"
+                        type="radio"
+                        name="radio1"
+                        value="5"
+                      />
+                      <label class="form-check-label" for="exampleRadios2">
+                        5
+                      </label>
+                    </div>
                   </div>
                   <div className="col-md-8 mt-3 form-group ">
                     <textarea
