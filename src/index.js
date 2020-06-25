@@ -5,7 +5,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter } from "react-router-dom";
 import "mdbootstrap/css/mdb.min.css";
-import "jquery/dist/jquery.slim.min.js";
+
 
 import "font-awesome/css/font-awesome.min.css";
 
