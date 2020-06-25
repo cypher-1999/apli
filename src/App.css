@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+nav {
+  background-color: #1c3334;
+}
+.app {
+  background-color: #376e6f;
+}
+.logo {
+  height: 40px;
+}
+.mytext {
+  color: floralwhite;
+}
+.row-header {
+  margin: 0px auto;
+  padding: 0px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.submit-button {
+  background-color: #1c3334;
+  color: floralwhite;
+}
+.dp {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.myradar {
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.shape {
+  fill-opacity: 0.3;
+}
+.shape:hover {
+  fill-opacity: 0.65;
+  z-index: 100;
+}
+.scale {
+  fill: #376e6f;
+  stroke: white;
+  stroke-width: 0.2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.axis {
+  stroke: white;
+  stroke-width: 0.3;
+}
+
+.caption {
+  fill: floralwhite;
+  font-weight: 400;
+  font-size: large;
+  text-shadow: 1px 1px 0 #fff;
+}
+
+th {
+  background-color: #1c3334;
+}
+tr:hover {
+  background-color: #2f4454;
+}
+.page-enter {
+  opacity: 0.01;
+  transform: translate(100%);
+}
+.page-enter-active {
+  opacity: 1;
+  transform: translate(0%);
+  transition: all 350ms;
+}
+.out-enter {
+  opacity: 0.01;
+  transform: translateY(100%);
+}
+.out-enter-active {
+  opacity: 1;
+  transform: translateY(0%);
+  transition: all 350ms;
 }
